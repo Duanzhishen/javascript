@@ -97,19 +97,19 @@
 		oTbody.rows[3].cells[0].align="center";
     //该做些什么
 		if(Day=='0')
-			oTbody.rows[3].cells[0].appendChild(document.createTextNode('星期天'));
+			oTbody.rows[3].cells[0].appendChild(document.createTextNode('吃饭'));
 		if(Day=='1')
-			oTbody.rows[3].cells[0].appendChild(document.createTextNode('前天'));
+			oTbody.rows[3].cells[0].appendChild(document.createTextNode('睡觉'));
 		if(Day=='2')
-			oTbody.rows[3].cells[0].appendChild(document.createTextNode('昨天'));	
+			oTbody.rows[3].cells[0].appendChild(document.createTextNode('吃饭'));	
 		if(Day=='3')
-			oTbody.rows[3].cells[0].appendChild(document.createTextNode('今天'));
+			oTbody.rows[3].cells[0].appendChild(document.createTextNode('睡觉'));
 		if(Day=='4')
-			oTbody.rows[3].cells[0].appendChild(document.createTextNode('明天'));
+			oTbody.rows[3].cells[0].appendChild(document.createTextNode('吃饭'));
 		if(Day=='5')
-			oTbody.rows[3].cells[0].appendChild(document.createTextNode('后天'));
+			oTbody.rows[3].cells[0].appendChild(document.createTextNode('睡觉'));
 		if(Day=='6')
-			oTbody.rows[3].cells[0].appendChild(document.createTextNode('大后天'));
+			oTbody.rows[3].cells[0].appendChild(document.createTextNode('吃饭'));
 	
 </script>
 </body>
