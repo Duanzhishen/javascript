@@ -76,19 +76,13 @@
 		var img=document.createElement('img');
     //每天图片
 		if(Day=='0')
-			img.setAttribute("src","images/"+7+".bmp");
-		if(Day=='1')
-			img.setAttribute("src","images/"+1+".bmp");
-		if(Day=='2')
-			img.setAttribute("src","images/"+2+".bmp");
-		if(Day=='3')
-			img.setAttribute("src","images/"+3+".bmp");
-		if(Day=='4')
-			img.setAttribute("src","images/"+4+".bmp");
-		if(Day=='5')
-			img.setAttribute("src","images/"+5+".bmp");
-		if(Day=='6')
-			img.setAttribute("src","images/"+6+".bmp");
+		{
+			Day='7';
+			img.setAttribute("src","images/"+Day+".bmp");
+			}
+		else
+			img.setAttribute("src","images/"+Day+".bmp");
+		
 		oTbody.rows[2].cells[0].appendChild(img);	
 		
 		oTbody.insertRow(3);
