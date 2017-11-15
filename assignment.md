@@ -33,7 +33,7 @@
 		}
 		oTbody.rows[1].cells[0].appendChild(document.createTextNode('星期七'));
 		oTbody.rows[1].insertCell(1);
-		if(Day=='1')
+		 if(Day=='1')
 		{
 			oTbody.rows[1].cells[1].style.backgroundColor = "blue";
 		}
@@ -92,17 +92,17 @@
     //该做些什么
 		if(Day=='0')
 			oTbody.rows[3].cells[0].appendChild(document.createTextNode('吃饭'));
-		if(Day=='1')
+		else if(Day=='1')
 			oTbody.rows[3].cells[0].appendChild(document.createTextNode('睡觉'));
-		if(Day=='2')
+		else if(Day=='2')
 			oTbody.rows[3].cells[0].appendChild(document.createTextNode('吃饭'));	
-		if(Day=='3')
+		else if(Day=='3')
 			oTbody.rows[3].cells[0].appendChild(document.createTextNode('睡觉'));
-		if(Day=='4')
+		else if(Day=='4')
 			oTbody.rows[3].cells[0].appendChild(document.createTextNode('吃饭'));
-		if(Day=='5')
+		else if(Day=='5')
 			oTbody.rows[3].cells[0].appendChild(document.createTextNode('睡觉'));
-		if(Day=='6')
+		else
 			oTbody.rows[3].cells[0].appendChild(document.createTextNode('吃饭'));
 	
 </script>
